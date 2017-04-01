@@ -19,7 +19,7 @@ Purchase: https://wrapbootstrap.com/theme/beyondadmin-adminapp-angularjs-mvc-WB0
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
     <!--Basic Styles-->
-    <link href="/js/backend/login/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/backend/login/css/bootstrap.min.css" rel="stylesheet" />
     <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
     <link href="/css/backend/login/css/font-awesome.min.css" rel="stylesheet" />
 

@@ -65,17 +65,17 @@ Route::group(['prefix' => 'backend'], function() {
       *  @todo 登入檢查
       *  @see 檢查完成後會自動導入到後台的首頁
       */
-     Route::post('CheckLogin','BackendCheckController@CheckLogin');
+     Route::post('CheckLogin','Backend\BackendCheckController@CheckLogin');
 
      /**
       *  @todo 登出
       */
-     Route::get('logout','BackendCheckController@logout');
+     Route::get('logout','Backend\BackendCheckController@logout');
 
      /**
       *
       *  @todo 首頁後台
       */
-     Route::get('home','BackendCheckController@home')->middleware('BackendLoginCheck');
+     Route::get('home','Backend\BackendHomeController@index')->middleware('BackendLoginCheck');
 
 });
